@@ -8,7 +8,7 @@ int main(){
     int choice;
     double balance = 0.0;
 
-    printf("{WELCOME OUR BANK}\n");
+    printf("{WELCOME TO OUR BANK}\n");
 
     do{
         printf("\nselect an option:\n");
