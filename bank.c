@@ -59,7 +59,7 @@ double withdraw(double balance){
     double amount2;
     printf("\nenter the amount of money you want to withdraw : ");
     scanf("%lf", &amount2);
-    if(amount2 >= balance){
+    if(amount2 > balance){
         printf("\nwe are sorry but you can't withdraw more than your balance\n");
         return 0.0;
     
